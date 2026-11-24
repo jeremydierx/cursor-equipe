@@ -1,0 +1,7 @@
+[equipe]
+nom = "Équipe d'agents à mémoire Code Alchimie"
+version = "0.2.0"
+langue = "français"
+
+# Ordre d'affichage dans la section « Ton équipe ». Chaque entrée renvoie à agents/<nom>/.
+agents = ["devops"]

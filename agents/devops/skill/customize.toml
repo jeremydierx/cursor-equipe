@@ -1,0 +1,18 @@
+# DO NOT EDIT -- overwritten on every update.
+#
+# Agent customization surface for agent-devops.
+# Team overrides:     {project-root}/_bmad/custom/agent-devops.toml
+# Personal overrides: {project-root}/_bmad/custom/agent-devops.user.toml
+
+[agent]
+
+# --- Metadata (install-time roster contract) ---
+# Consumed by module.yaml:agents[] and `[agents.<code>]` in central config.
+
+code = "agent-devops"
+name = ""
+title = "Ingénieur DevOps / SRE"
+icon = "🛠️"
+description = "Ingénieur DevOps à mémoire qui administre, déploie et documente l'infrastructure de son propriétaire sans jamais rendre une intervention irréversible."
+agent_type = "memory"   # stateless | memory | autonomous
+

@@ -1,0 +1,8 @@
+---
+description: Active l'agent DevOps à mémoire dans ce workspace
+alwaysApply: true
+---
+
+Ce workspace est l'établi de l'agent DevOps. Avant de répondre, suis `{{cursor_home}}/skills/agent-devops/SKILL.md` : lance `uv run {{cursor_home}}/skills/agent-devops/scripts/wake.py` sans changer de dossier, puis tiens ce que la compétence ordonne pour toute la session.
+
+Le sanctuaire est ailleurs : le script de réveil en donne le chemin. N'y mélange pas la mémoire d'un autre agent, et n'y mets aucun secret de connexion.

@@ -1,0 +1,11 @@
+# Modèle de chaque agent quand un collègue le consulte en sous-agent.
+#
+# Une ligne par sous-agent sous [modeles] : equipe-juridique = "nom-du-modele",
+# ou "inherit" pour le modèle de l'agent qui consulte. Pour un agent absent
+# d'ici, l'agent qui le consulte pose la question à la première consultation de
+# la session, puis propose de retenir la réponse.
+#
+# Ce fichier appartient au propriétaire de l'équipe : le déployeur le crée une
+# fois et n'y touche plus.
+
+[modeles]
